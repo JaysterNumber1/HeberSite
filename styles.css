@@ -1,8 +1,8 @@
 body{
     margin: 0%;
     background-color: black;
+    background-image: linear-gradient(rgba(141, 22, 22, 0.801),rgba(136, 24, 24, 0.671));
 }
-
 
 .hero{
     
@@ -67,6 +67,7 @@ article{
     display: grid;
     border: solid white 2px;
     grid-template-columns: 50vmin auto;
+    background-color: black;
    
 }
 article>h1{
@@ -93,8 +94,28 @@ article>figure>figcaption{
     text-align: center;
 }
 article>p{
+    margin-top: 2vh;
+    display: inline;
     color: white;
-    font-size: 3vmin;
+    font-size: 4.5vmin;
     text-align: center;
+    
+    
+}
+article>div{
+    margin-top: 2vh;
+    grid-area: 2/2/3/3;
+    text-align: center;
+    
+    
+}
+article>div>p{
+    display: inline;
+    color: white;
+    font-size: 4.5vmin;
+    text-align: center;
+}
+.strikethrough{
+    text-decoration: line-through;
     
 }
